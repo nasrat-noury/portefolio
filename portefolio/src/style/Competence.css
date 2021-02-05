@@ -1,0 +1,29 @@
+.boxes {
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/fond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 70px;
+}
+
+/* .webknowledge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ProgBloc {
+  background-color: rgba(172, 108, 108, 0.9);
+  display: flex;
+  align-self: center;
+  border-radius: 2px;
+  height: 52vh;
+  margin: 2vh;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+} */
