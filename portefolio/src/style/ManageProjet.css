@@ -1,0 +1,12 @@
+.post-projet {
+  background-color: rgba(243, 241, 241, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(108, 123, 172);
+  font-style: italic;
+}
