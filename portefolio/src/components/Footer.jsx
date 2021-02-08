@@ -17,11 +17,16 @@ const Footer = () => {
         <Link className="linkPages" to={"/contact"}>
           Contact
         </Link>
-        <a href="https://www.linkedin.com/in/nasrat-noury-41a034201/">
+        <a
+          className="linkPages"
+          href="https://www.linkedin.com/in/nasrat-noury-41a034201/"
+        >
           LinkedIn
         </a>
 
-        <a href="https://www.github.com/nasrat-noury">GitHub</a>
+        <a className="linkPages" href="https://www.github.com/nasrat-noury">
+          GitHub
+        </a>
       </div>
     </div>
   );

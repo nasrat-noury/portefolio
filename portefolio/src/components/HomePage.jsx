@@ -9,6 +9,8 @@ const HomePage = () => {
         <p>Developpeur web Full Stack,</p>
         <p>React et NodeJS</p>
       </h1>
+
+      <h2></h2>
     </div>
   );
 };
