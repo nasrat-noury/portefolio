@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-// import "../assets/css/contactPage.css";
+import "../style/Contact.css";
 import { useHistory } from "react-router-dom";
 
 const Contact = () => {
@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <div className="ContactPage">
       <div className="ContactInput">
-        <h1>
+        <h1 className="stuff">
           <p> Me contacter pour me proposer un stage, </p>
           <p>un poste ou juste pour faire connaissance?</p>
         </h1>

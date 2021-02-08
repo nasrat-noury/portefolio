@@ -8,6 +8,7 @@ import Authentification from "./components/Authentification";
 import HomePage from "./components/HomePage";
 import reportWebVitals from "./reportWebVitals";
 import ManageProjet from "./components/ManageProjet";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,11 +20,10 @@ function App() {
         <Route path="/authentification" component={Authentification} />
         <Route path="/projet" component={Projet} />
         <Route path="/contact" component={Contact} />
-
         <Route exact path="/competences" component={Competences} />
-
         <Route path="/manageprojet" component={ManageProjet} />
       </Switch>
+      <Footer />
     </div>
   );
 }
