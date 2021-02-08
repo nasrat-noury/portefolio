@@ -3,10 +3,6 @@ export const userConnectedAction = (newValue) => ({
   newValue,
 });
 
-export const userDeconnectedAction = () => ({
-  type: "UPDATE_IS_DECONNECTED",
-});
-
 export const userDataAction = (newValue) => ({
   type: "UPDATE_DATA",
   newValue,

@@ -1,12 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: grey;
+}
+
 .footer-div {
-  height: 10vh;
+  height: 8vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(223, 188, 188, 0.8);
+  background-color: rgba(97, 96, 96, 0.8);
   color: white;
   font-weight: bold;
+}
+
+.linkPages {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 505px) {
