@@ -44,14 +44,17 @@ const ManageProjet = () => {
       <h1>Projets</h1>
       <div className="ProjetCards">
         {projetLists.map((projet) => (
-          <div className="DetailProjet">
+          <div className="ProjCard">
             {/* <p>{projet.name}</p> */}
-            <p>
-              <img src={projet.img} />
-            </p>
-            <p>{projet.description}</p>
-            <p>{projet.date}</p>
-            <p>{projet.tech}</p>
+            <div className="CardImage">
+              <img src={projet.img} alt={projet.name} className="ImageProjet" />
+            </div>
+            <div className="CardText">
+              <h2>{projet.name}</h2>
+              <h3>{projet.date}</h3>
+              <h4>{projet.description}</h4>
+              <h5>{projet.tech}</h5>
+            </div>
 
             <button
               className="suppBouton"
@@ -65,6 +68,8 @@ const ManageProjet = () => {
             </button>
           </div>
         ))}
+      </div>
+      <div className="newprojet">
         <div className="post-project">
           <input
             type="name"

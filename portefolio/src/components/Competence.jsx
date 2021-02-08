@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Competence.css";
 
 const Competences = () => {
   return (
@@ -17,6 +18,7 @@ const Competences = () => {
       <div className="teamwork">
         <div>
           <img
+            className="together"
             alter="worktogether"
             src="https://portrait2point0.com/wp-content/uploads/2018/11/rawpixel-653764-unsplash-1030x674.jpg"
           ></img>

@@ -1,5 +1,4 @@
 .ProjetCards {
-  background-color: rgb(154, 224, 224);
   display: flex;
   flex-direction: row;
 }
@@ -21,4 +20,5 @@
 
 .projet-linkto {
   text-decoration: none;
+  color: grey;
 }

@@ -10,3 +10,44 @@
   border-bottom: 2px solid rgb(108, 123, 172);
   font-style: italic;
 }
+
+.ProjetCards {
+  display: flex;
+  flex-direction: row;
+}
+
+.ProjCard {
+  width: 25%;
+  height: 80px;
+  padding: 20px;
+}
+
+.CardImage {
+  height: 25vh;
+  overflow: hidden;
+}
+
+.ProjCard img {
+  width: 100%;
+}
+
+button img {
+  width: 5px;
+  height: 40px;
+}
+
+.projets {
+  display: flex;
+  flex-direction: column;
+}
+
+.newprojet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+}
+
+.addprojet {
+  width: 50px;
+  margin-left: 890px;
+}
