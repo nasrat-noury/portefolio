@@ -11,7 +11,6 @@ const Projet = () => {
       .then((response) => setProjet(response.data));
   }, []);
 
-  console.log(Projet);
   return (
     <div className="ProjetPage">
       <div className="ProjetCards">
