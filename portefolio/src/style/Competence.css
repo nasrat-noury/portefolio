@@ -2,3 +2,15 @@
   width: 200px;
   height: 200px;
 }
+
+.frontknow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.backknow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

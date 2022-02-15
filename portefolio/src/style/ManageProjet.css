@@ -16,11 +16,7 @@
   flex-direction: row;
 }
 
-.ProjCard {
-  width: 25%;
-  height: 80px;
-  padding: 20px;
-}
+
 
 .CardImage {
   height: 25vh;

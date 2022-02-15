@@ -1,9 +1,8 @@
 .footer {
-  position: absolute;
-  bottom: 0;
+  
   width: 100%;
   color: rgb(156, 151, 151);
-  z-index: -1;
+  
 }
 
 .footer-div {

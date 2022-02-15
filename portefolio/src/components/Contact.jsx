@@ -1,89 +1,28 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
+
 import "../style/Contact.css";
-import { useHistory } from "react-router-dom";
+
+
 
 const Contact = () => {
-  const history = useHistory();
-  const [form, setForm] = useState({});
-
-  const handleSubmit = async () => {
-    await axios.post(`http://localhost:3001/api/contacts`, {
-      ...form,
-    });
-    history.push("/");
-  };
-
-  const handleChange = (e) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
-    });
-  };
+  
   return (
-    <div className="ContactPage">
-      <div className="ContactInput">
-        <h1 className="stuff">
-          <p> Me contacter pour me proposer un stage, </p>
-          <p>un poste ou juste pour faire connaissance?</p>
-        </h1>
-        <div className="form">
-          <div className="contactform">
-            <input
-              type="firstname"
-              id="firstname"
-              name="firstname"
-              className="inputname"
-              placeholder="Votre prénom"
-              onChange={(e) => handleChange(e)}
-            />
-          </div>
-          <div className="contactform">
-            <input
-              type="lastname"
-              id="lastname"
-              name="lastname"
-              className="inputname"
-              placeholder="Votre nom"
-              onChange={(e) => handleChange(e)}
-            />
-          </div>
-          <div className="contactform">
-            <textarea
-              type="message"
-              id="message"
-              name="message"
-              className="input-textarea"
-              placeholder="Votre message"
-              onChange={(e) => handleChange(e)}
-            />
-          </div>
-          <div className="contactform">
-            <input
-              type="mail"
-              id="mail"
-              name="mail"
-              className="inputname"
-              placeholder="Votre email"
-              onChange={(e) => handleChange(e)}
-            />
-          </div>
+    <div class="containerContact">
+      <div class="email">
+        <div class="mailimg"></div>
+        <div class="mail">
+        <h3>Email</h3>
+      <a href="mailto:nasrat.noury@gmail.com">nasrat.noury@gmail.com</a>
+      </div>
+      </div>
+      <div class="phone">
+        <div class="phoneimg"></div>
+        <div class="phone">
+          <h3>Téléphone</h3>
+          <a href="tel:0784443409">+33 7 84 44 34 09</a>
 
-          <div className="contactform">
-            <input
-              type="phone"
-              id="phone"
-              name="phone"
-              className="inputphone"
-              placeholder="Votre numéro de téléphone"
-              onChange={(e) => handleChange(e)}
-            />
-          </div>
         </div>
       </div>
-      <button className="boutonPost" type="submit" onClick={handleSubmit}>
-        Envoyer
-      </button>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const Projet = () => {
 
   return (
     <div className="ProjetPage">
-      <div className="ProjetCards">
+      <div className="ProjetCards" >
         {Projet &&
           Projet.map((projet) => (
             <div className="ProjCard">

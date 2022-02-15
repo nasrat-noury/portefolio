@@ -1,17 +1,28 @@
+.ProjetPage {
+  background-color: azure;
+}
+
+
 .ProjetCards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+ 
 }
 
+
+
 .ProjCard {
-  width: 25%;
-  height: 80px;
+  width: 600px;
+  height: 500px;
   padding: 20px;
 }
 
 .CardImage {
   height: 25vh;
-  overflow: hidden;
+  
 }
 
 .ProjCard img {

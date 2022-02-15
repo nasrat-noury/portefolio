@@ -1,16 +1,26 @@
 import React from "react";
 import "../style/HomePage.css";
+import img from"./fuji.png";
+
+
 
 const HomePage = () => {
   return (
     <div className="page-container">
-      <h1 className="title">
+
+     
+     <div><h1 className="img">
+        <img src={img} alt="portrait"></img>
+      </h1> </div>
+      <div className="titre">
+      <h2 className="title">
         <p>Nasrat NOURY</p>
         <p>Developpeur web Full Stack,</p>
         <p>React et NodeJS</p>
-      </h1>
+      </h2>
+      </div>
 
-      <h2></h2>
+     
     </div>
   );
 };
