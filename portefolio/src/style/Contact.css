@@ -4,28 +4,41 @@
   background-size: cover;
   background-position: center center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.form {
-  margin-top: 140px;
+
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.stuff {
-  margin-top: -80px;
+.mailimg {
+
+margin-right: 20px;
 }
 
-h1 {
-  color: white;
+.mailcontent {
+  margin-bottom: 50px;
+  margin-left: 20px;
 }
 
-.boutonPost {
-  height: 40px;
-  width: 150px;
+.phone {
+  display: flex;
+  flex-direction: row;
 }
 
-.input-textarea {
-  height: 70px;
-}
+.phoneimg {
+
+  margin-right: 20px;
+  }
+
+  .phonecontent {
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+
