@@ -1,6 +1,7 @@
 import React from 'react';
 import "../style/Navbar.css";
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 function Navbar () {
 
@@ -13,16 +14,16 @@ function Navbar () {
             <div className="navabar_logo">NN</div> 
             <ul className="navbar_links">
                 <li className="navbar_item">
-                    <a href="/" className="navbar_link">Home</a>
+                    <Link to="/" className="navbar_link">Home</Link>
                 </li>
                 <li className="navbar_item">
-                    <a href="/competences" className="navbar_link">Compétences</a>
+                    <Link to="/competences" className="navbar_link">Compétences</Link>
                 </li>
                 <li className="navbar_item">
-                    <a href="/projet" className="navbar_link">Projets</a>
+                    <Link to="/projet" className="navbar_link">Projets</Link>
                 </li>
                 <li className="navbar_item">
-                    <a href="/contact" className="navbar_link">Contact</a>
+                    <Link to="/contact" className="navbar_link">Contact</Link>
                 </li>
                 <li className="navbar_item">
                     <a href="https://www.linkedin.com/in/nasrat-noury-41a034201/" target="blank" >LinkedIn</a>
