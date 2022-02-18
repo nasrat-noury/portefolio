@@ -1,21 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300');
+
 .boxes {
-  height:90vh;
+  height:100%;
 
 }
 
-.together {
-  width: 200px;
-  height: 200px;
+
+
+.webknowledge {
+  font-family: 'Poppins', sans-serif;
+}
+
+.langage {
+  font-family: 'Poppins', sans-serif;
+}
+
+.teamwork {
+  font-family: 'Poppins', sans-serif;
 }
 
 .frontknow {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .backknow {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:870px) {
+  .frontknow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .backknow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
 }

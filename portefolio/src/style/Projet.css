@@ -1,5 +1,6 @@
 .ProjetPage {
-  background-color: azure;
+  background-color: white;
+  
 }
 
 
@@ -8,6 +9,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
  
  
 }
@@ -32,4 +34,5 @@
 .projet-linkto {
   text-decoration: none;
   color: grey;
+  font-family: 'Poppins', sans-serif;
 }

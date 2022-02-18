@@ -1,6 +1,6 @@
 .containerContact {
   height: 90vh;
-  background-color: azure;
+  background-color: white;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -9,7 +9,9 @@
   align-items: center;
 }
 
-
+.a {
+  text-decoration: none;
+}
 
 .mail {
   display: flex;
@@ -35,6 +37,9 @@ margin-right: 20px;
 .phoneimg {
 
   margin-right: 20px;
+  
+    
+  
   }
 
   .phonecontent {
@@ -42,3 +47,14 @@ margin-right: 20px;
     margin-left: 40px;
   }
 
+  @media screen and (max-width:870px) {
+    .containerContact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cv {
+      display: none;
+    }
+    
+  }

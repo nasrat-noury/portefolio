@@ -1,28 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300');
+
+
 .footer {
   
   width: 100%;
-  color: rgb(156, 151, 151);
+  color: #000;
   
 }
 
 .footer-div {
-  height: 8vh;
+  
+  height: 2vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(97, 96, 96, 0.8);
+  background-color:#000;
   color: white;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
-.linkPages {
-  text-decoration: none;
-  color: black;
-}
 
-@media screen and (max-width: 505px) {
-  .footer-div {
-    display: none;
-  }
-}

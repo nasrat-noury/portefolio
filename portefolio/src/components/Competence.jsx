@@ -73,8 +73,9 @@ const Competences = () => {
         </div>
         <div>
           <p>
-            Méthodologie: méthodes agiles et SCRUM. Utilisation des logiciels
-            Slack, Trello.
+            Méthodologie: méthodes agiles et SCRUM. 
+            <p>Utilisation des logiciels
+            Slack, Trello, Postman, Workbench, VS Code.</p>
           </p>
         </div>
       </div>

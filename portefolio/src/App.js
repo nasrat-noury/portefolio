@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <ScrollToTop /> */}
+      
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
