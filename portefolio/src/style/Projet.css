@@ -27,6 +27,10 @@
   
 }
 
+.ImageProjet {
+  height:25vh;
+}
+
 .ProjCard img {
   width: 100%;
 }
