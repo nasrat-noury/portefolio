@@ -9,7 +9,7 @@
 }
 
 .footer-div {
-  
+  margin-top: 20px;
   height: 2vh;
   display: flex;
   flex-direction: row;
