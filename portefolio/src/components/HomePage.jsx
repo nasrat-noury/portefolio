@@ -15,9 +15,7 @@ const HomePage = () => {
         <p>React et NodeJS</p>
       </h2>
       </div>
-     <div><h1 className="img">
-        <img src={img} alt="portrait"></img>
-      </h1> </div>
+     
       
 
      
