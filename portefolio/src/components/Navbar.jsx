@@ -9,6 +9,8 @@ function Navbar () {
     const handleShowLinks = () => {
         setShowLinks(!showLinks)
     }
+
+    console.log(showLinks);
     return (
         <nav className={`navbar ${showLinks ? "shownav" : "hidenav"}`}>
             <div className="navabar_logo">NN</div> 

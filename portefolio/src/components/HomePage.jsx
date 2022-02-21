@@ -16,7 +16,7 @@ const HomePage = () => {
       </h2>
       </div>
      <div><h1 className="img">
-        <img src={img} alt="portrait"></img>
+        <img src={img} alt="portrait" width="400" height="400"></img>
       </h1> </div>
       </div>
     <div className="right">Je me présente, je m'appelle Nasrat NOURY et je suis un développeur web junior.
