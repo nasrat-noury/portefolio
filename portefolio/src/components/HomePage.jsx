@@ -22,9 +22,9 @@ const HomePage = () => {
     <div className="right">Je me présente, je m'appelle Nasrat NOURY et je suis un développeur web junior.
     <br></br>
     <br></br>
-    Après une formation à la Wild Code School de Bordeaux qui m'a permis d'apprendre les différents languages du web et leur utilisation à travers différents cas pratiques. 
+    Après une formation à la Wild Code School de Bordeaux qui m'a permis d'apprendre les différents languages du web et leur utilisation à travers différents cas pratiques, 
     <br></br>
-    Je suis aujourd'hui à la recherche d'une nouvelle opportunité professionnelle.</div>
+    je suis aujourd'hui à la recherche d'une nouvelle opportunité professionnelle.</div>
       
 
      
