@@ -16,7 +16,7 @@ function Navbar () {
             <div className="navabar_logo">NN</div> 
             <ul className="navbar_links">
                 <li className="navbar_item">
-                    <Link to="/" className="navbar_link">Home</Link>
+                    <Link to="/" className="navbar_link">Accueil</Link>
                 </li>
                 <li className="navbar_item">
                     <Link to="/competences" className="navbar_link">Compétences</Link>

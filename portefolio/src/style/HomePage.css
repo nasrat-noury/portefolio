@@ -38,4 +38,9 @@
   .page-container {
     justify-content: center;
   }
+
+.left {
+  justify-content: center;
+  
+}
 }

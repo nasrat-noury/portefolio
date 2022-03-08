@@ -66,6 +66,12 @@ a{
         visibility: visible;
         }
 
+        .hidenav .navbar_links {
+            right:-100vh;
+            width:100vw;
+            visibility: hidden;
+            }
+
         .navbar_link {
             display: block;
             padding: 1.5rem;
